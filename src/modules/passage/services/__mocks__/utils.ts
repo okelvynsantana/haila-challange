@@ -29,6 +29,13 @@ export const mockUpdatedPassageModel: Passage = {
   updated_at: new Date(),
 };
 
+export const mockUpdatedPassageParams = {
+  name: 'Denis',
+  lat: 112456.5856,
+  lng: 1236413.23255,
+  type: PassageType.entry,
+};
+
 export const mockPassageMockModelArray = [
   mockPassageModel,
   mockPassageModel,
